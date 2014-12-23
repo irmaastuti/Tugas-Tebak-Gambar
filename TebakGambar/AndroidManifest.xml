@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eviirma.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HargaActivity"
+            android:label="@string/title_activity_harga" >
+        </activity>
+        <activity
+            android:name=".JagungActivity"
+            android:label="@string/title_activity_jagung" >
+        </activity>
+        <activity
+            android:name=".JambuActivity"
+            android:label="@string/title_activity_jambu" >
+        </activity>
+        <activity
+            android:name=".KunangActivity"
+            android:label="@string/title_activity_kunang" >
+        </activity>
+        <activity
+            android:name=".KupuActivity"
+            android:label="@string/title_activity_kupu" >
+        </activity>
+        <activity
+            android:name=".MakanActivity"
+            android:label="@string/title_activity_makan" >
+        </activity>
+        <activity
+            android:name=".MalamActivity"
+            android:label="@string/title_activity_malam" >
+        </activity>
+        <activity
+            android:name=".TipsActivity"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".TrukActivity"
+            android:label="@string/title_activity_truk" >
+        </activity>
+    </application>
+
+</manifest>
